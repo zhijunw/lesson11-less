@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>课程库</title>
+    <meta name="keywords" content="极客学院">
+    <meta name="description" content="极客学院">
+    <link rel="stylesheet" type="text/css" href="style/commen.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/css2.css">
+  
+</head>
+
+<body>
+    <div class="wrap">
+        <a href="" name="top"></a>
+        <div class="header">
+            <div class="header-wrap">
+                <!-- logo -->
+                <a href="" class="logo">
+                    <img src="images/logo.png" alt="极客学院">
+                </a>
+                <!-- 导航 -->
+                <div class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="index.html" style="color: #35b558">首页</a>
+                        </li>
+                        <li>
+                            职业学院
+                            <i class="icon"></i>
+                            <!-- 二级菜单 -->
+                            <div class="sublist">
+                                <h3>前端学院</h3>
+                                <a href="">
+                                    <i class="web-icon"></i> web前端工程师
+                                </a>
+                                <h3>后端工程师</h3>
+                                <a href="">
+                                    <i class="Python-icon"></i> Python Web工程师
+                                </a>
+                                <a href="">
+                                    <i class="go-icon"></i> go语言工程师
+                                </a>
+                                <h3>移动学院</h3>
+                                <a href="">
+                                    <i class="ios-icon"></i> ios工程师
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            会员课程
+                            <i class="icon"></i>
+                            <div class="sublist vip-lesson">
+                                <a href="">
+                                    <i class="kck-icon"></i> 课程库
+                                    <span>2500+</span>
+                                </a>
+                                <a href="">
+                                    <i class="zylj-icon"></i> 职业路途
+                                    <span>9</span>
+                                </a>
+                                <a href="">
+                                    <i class="zstx-icon"></i> 知识体系图
+                                    <span>24</span>
+                                </a>
+                                <a href="">
+                                    <i class="xlkc-icon"></i> 系列课程
+                                    <span>101</span>
+                                </a>
+                                <a href="">
+                                    <i class="kcbq-icon"></i> 课程标签
+                                    <span>4000+</span>
+                                </a>
+                                <a href="">
+                                    <i class="hygm-icon"></i> VIP会员购买
+                                    <span>30/月 &nbsp260/年</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            极客社区
+                            <i class="icon"></i>
+                            <!-- vip 二级菜单 -->
+                            <div class="sublist vip-lesson">
+                                <a href="">
+                                    <i class="jswd-icon"></i> 技术问答
+                                    <span>20000+</span>
+                                </a>
+                                <a href="">
+                                    <i class="wiki-icon"></i> wiki
+                                    <span>351</span>
+                                </a>
+                                <a href="">
+                                    <i class="sq-icon"></i> 社区
+                                    <span>7000+</span>
+                                </a>
+                                <a href="">
+                                    <i class="zyxz-icon"></i> 资源下载
+                                    <span>3000+</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- 二级菜单结束 -->
+                </div>
+                <!-- 导航结束 -->
+                <!--  -->
+                <div class="login">
+                    <span class="login-search" id="lg-open"></span>
+                    <span class="login-app">
+                        <!-- 二维码 -->
+                        <div class="qrcode">
+                            <i class="app-icon"></i>
+                            <img src="images/heade-rwm.png" alt="二维码" width="120px" height="157px">
+                        </div>
+                    </span>
+                    <!--  人物信息-->
+                    <span class="register" id="register">
+                        <!-- 人物信息下拉框 -->
+                        <div class="sub-register" id="sub-register">
+                            <i class="app-icon"></i>
+                            <span>
+                        <a href="" class="register-btn">注册</a>
+                        |
+                        <a href="" class="register-btn">登录</a>  
+                        </span>
+                    <span>
+                            <i class="xxzx-icon"></i>
+                            <a href="">学习中心</a>
+                        </span>
+                    <span>
+                            <i class="grzy-icon"></i>
+                            <a href="">个人主页</a>
+                        </span>
+                    <span>
+                            <i class="xxtz-icon"></i>
+                            <a href="">消息通知</a>
+                        </span>
+                    <span>
+                            <i class="zhsz-icon"></i>
+                            <a href="">账号设置</a>
+                        </span>
+                </div>
+                </span>
+            </div>
+            <div class="login-search-click" id="searchbox">
+                <i class="click-close"></i>
+                <i class="click-pic" id="click-close"></i>
+                <input class="click-search" placeholder="搜索课程、问答或Wiki"></input>
+                <div class="click-box">
+                    <a href="">Android</a>
+                    <a href="">ios</a>
+                    <a href="">html5</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="con-right">
+            <div class="right-menu-warp">
+                <div class="right-menu">
+                    <h3>全部课程</h3>
+                    <dl>
+                        <dt>
+                            <span>最新内容</span>
+                            <i class="icon"></i>
+                        </dt>
+                        <dd>
+                            <a href="">最新</a>
+                            <a href="">最热</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <span>课程类型</span>
+                            <i class="icon"></i>
+                            <dd>
+                                <a href="">VIP</a>
+                                <a href="">免费</a>
+                                <a href="">认证专享</a>
+                                <a href="">全部</a>
+                            </dd>
+                        </dt>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <span>内容类型</span>
+                            <i class="icon"></i>
+                        </dt>
+                        <dd>
+                            <a href="">知识精讲</a>
+                            <a href="">项目实战</a>
+                            <a href="">全部</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <span>难度等级</span>
+                            <i class="icon"></i>
+                            <dd>
+                                <a href="">初级</a>
+                                <a href="">中级</a>
+                                <a href="">高级</a>
+                                <a href="">全部</a>
+                            </dd>
+                        </dt>
+                    </dl>
+                </div>
+                <div class="switch-icon">
+                    <ul>
+                        <li id="block-icon">
+                            <i class="block-icon"></i>
+                        </li>
+                        <li id="none-icon">
+                            <i class="none-icon">
+                                
+                            </i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-menu-list" id="changed">
+                <ul id="menu-list-ul">
+                    <li id="switch" class="ul-list">
+                        <div class="lesson-box">
+                            <a href="">
+                                <img src="images/8.png">
+                            </a>
+                            <div class="lessonplay">
+                                <i class="lessonplay-pic"></i>
+                            </div>
+                        </div>
+                        <div class="info-warp">
+                            <div class="lesson-info">
+                                <h2><a href="">腾讯大咖分享 - 腾讯大咖分享之技术交流</a></h2>
+                                <p> 本课程主要是腾讯大咖与大家分享一些技术经验与心得。</p>
+                            </div>
+                            <div class="lesson-time">
+                                <dl>
+                                    <dd class="time-floatl">
+                                        <i class=lesson-time-pic ""></i>
+                                        <em>六课时&nbsp120分钟</em>
+                                    </dd>
+                                    <dd class="time-floatr">
+                                        <em>2138人学习</em>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ul-list">
+                        <div class="lesson-box">
+                            <a href="">
+                                <img src="images/8.png">
+                            </a>
+                            <div class="lessonplay">
+                                <i class="lessonplay-pic"></i>
+                            </div>
+                        </div>
+                        <div class="info-warp">
+                            <div class="lesson-info">
+                                <h2><a href="">腾讯大咖分享 - 腾讯大咖分享之技术交流</a></h2>
+                                <p> 本课程主要是腾讯大咖与大家分享一些技术经验与心得。</p>
+                            </div>
+                            <div class="lesson-time">
+                                <dl>
+                                    <dd class="time-floatl">
+                                        <i class=lesson-time-pic ""></i>
+                                        <em>六课时&nbsp120分钟</em>
+                                    </dd>
+                                    <dd class="time-floatr">
+                                        <em>2138人学习</em>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ul-list">
+                        <div class="lesson-box">
+                            <a href="">
+                                <img src="images/8.png">
+                            </a>
+                            <div class="lessonplay">
+                                <i class="lessonplay-pic"></i>
+                            </div>
+                        </div>
+                        <div class="info-warp">
+                            <div class="lesson-info">
+                            <h2><a href="">腾讯大咖分享 - 腾讯大咖分享之技术交流</a></h2>
+                             <p> 本课程主要是腾讯大咖与大家分享一些技术经验与心得。</p>
+                            </div>
+                            <div class="lesson-time">
+                                <dl>
+                                    <dd class="time-floatl">
+                                        <i class=lesson-time-pic ""></i>
+                                        <em>六课时&nbsp120分钟</em>
+                                    </dd>
+                                    <dd class="time-floatr">
+                                        <em>2138人学习</em>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ul-list">
+                        <div class="lesson-box">
+                            <a href="">
+                                <img src="images/8.png">
+                            </a>
+                            <div class="lessonplay">
+                                <i class="lessonplay-pic"></i>
+                            </div>
+                        </div>
+                        <div class="info-warp">
+                            <div class="lesson-info">
+                               <h2><a href="">腾讯大咖分享 - 腾讯大咖分享之技术交流</a></h2>
+                                <p> 本课程主要是腾讯大咖与大家分享一些技术经验与心得。</p>
+                            </div>
+                            <div class="lesson-time">
+                                <dl>
+                                    <dd class="time-floatl">
+                                        <i class=lesson-time-pic ""></i>
+                                        <em>六课时&nbsp120分钟</em>
+                                    </dd>
+                                    <dd class="time-floatr">
+                                        <em>2138人学习</em>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ul-list">
+                        <div class="lesson-box">
+                            <a href="">
+                                <img src="images/8.png">
+                            </a>
+                            <div class="lessonplay">
+                                <i class="lessonplay-pic"></i>
+                            </div>
+                        </div>
+                        <div class="info-warp">
+                            <div class="lesson-info">
+                              <h2><a href="">腾讯大咖分享 - 腾讯大咖分享之技术交流</a></h2>
+                                <p> 本课程主要是腾讯大咖与大家分享一些技术经验与心得。</p>
+                            </div>
+                            <div class="lesson-time">
+                                <dl>
+                                    <dd class="time-floatl">
+                                        <i class=lesson-time-pic ""></i>
+                                        <em>六课时&nbsp120分钟</em>
+                                    </dd>
+                                    <dd class="time-floatr">
+                                        <em>2138人学习</em>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ul-list">
+                        <div class="lesson-box">
+                            <a href="">
+                                <img src="images/8.png">
+                            </a>
+                            <div class="lessonplay">
+                                <i class="lessonplay-pic"></i>
+                            </div>
+                        </div>
+                        <div class="info-warp">
+                            <div class="lesson-info">
+                                <h2><a href="">腾讯大咖分享 - 腾讯大咖分享之技术交流</a></h2>
+                                <p> 本课程主要是腾讯大咖与大家分享一些技术经验与心得。</p>
+                            </div>
+                            <div class="lesson-time">
+                                <dl>
+                                    <dd class="time-floatl">
+                                        <i class=lesson-time-pic ""></i>
+                                        <em>六课时&nbsp120分钟</em>
+                                    </dd>
+                                    <dd class="time-floatr">
+                                        <em>2138人学习</em>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                <div class="page-menu">
+        <ul>
+            <li class="first">首页</li>
+            <li class="page">下一页</li>
+            <li class="pagenumber current">1</li>
+            <li class="pagenumber">2</li>
+            <li class="pagenumber">3</li>
+            <li class="pagenumber">4</li>
+            <li class="pagepoint">...</li>
+            <li class="pagenumber prepage">上一页</li>
+            <li class="pagenumber lastpage">末页</li>
+            <li class="total">共10页</li>
+            <li class="pagenow">
+                当前
+                <input value="1" type="text" class="pagetext"></input>页
+            </li>
+            <li class="pagenumber pagego">确定</li>
+        </ul>
+    </div>
+        </div>
+        <div class="con-left">
+            <div class="left-wrapper">
+                <!-- 菜单 -->
+                <div class="left-menu">
+                    <!-- 头部 -->
+                    <div class="left-hd">
+                        <h2><a href=""><i class="hd-pic"></i>课程库</a></h2>
+                    </div>
+                    <ul class="menu-list">
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">移动开发</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">前端开发</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                        <dt>常用框架</dt>
+                                        <dd><a href="">Cordova</a>
+                                            <a href="">React Native</a>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">后端开发</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">基础知识</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                        <dt>常用框架</dt>
+                                        <dd><a href="">Cordova</a>
+                                            <a href="">React Native</a>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">云计算&大数据</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">智能硬件&物联网</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                        <dt>常用框架</dt>
+                                        <dd><a href="">Cordova</a>
+                                            <a href="">React Native</a>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">数据</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">认证考试</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                        <dt>常用框架</dt>
+                                        <dd><a href="">Cordova</a>
+                                            <a href="">React Native</a>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="">企业IT</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-switch">
+                                <a href="">产品&设计&测试</a>
+                                <div class="sub-menu" id="sub-menu">
+                                    <dl class="sub-menu-list">
+                                        <dt>应用开发</dt>
+                                        <dd><a href="">andiord</a>
+                                            <a href="">ios</a></dd>
+                                    </dl>
+                                    <dl class="sub-menu-list">
+                                        <dt>游戏开发</dt>
+                                        <dd><a href="">Cocos</a>
+                                            <a href="">Unity3D</a>
+                                            <a href="">SpriteKit 2D</a>
+                                            <a href="">Unreal</a></dd>
+                                        <dt>常用框架</dt>
+                                        <dd><a href="">Cordova</a>
+                                            <a href="">React Native</a>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="left-bmenu">
+                    <li>
+                        <a href="">
+                            <i class="bmenu-pic-one"></i>职业路径图</a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="bmenu-pic-two"></i>知识体系图</a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="bmenu-pic-there"></i>系列课程</a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="bmenu-pic-four"></i>课程标签</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="foott">
+        <!-- 底部信息 -->
+        <div class="footwrap">
+            <div class="footinfo">
+                <!-- logo -->
+                <div class="footinfo-logo">
+                    <img src="images/footer.png" width="109" height="40">
+                    <p>极客学院，编程是一种信仰！</p>
+                </div>
+                <dl>
+                    <dt>职业学院</dt>
+                    <dd><a href="">web前端工程师</a></dd>
+                    <dd><a href="">phython工程师</a></dd>
+                    <dd><a href="">Go语言工程师</a></dd>
+                    <dd><a href="">Ios工程师</a></dd>
+                </dl>
+                <dl>
+                    <dt>会员课程</dt>
+                    <dd><a href="">课程库</a></dd>
+                    <dd><a href="">知识体系库</a></dd>
+                    <dd><a href="">职业路径库</a></dd>
+                    <dd><a href="">系列课程</a></dd>
+                    <dd><a href="">课程标签</a></dd>
+                </dl>
+                <dl>
+                    <dt>极客社区</dt>
+                    <dd><a href="">技术问答</a></dd>
+                    <dd><a href="">wiki</a></dd>
+                    <dd><a href="">资源下载</a></dd>
+                    <dd><a href="">社群</a></dd>
+                </dl>
+                <dl>
+                    <dt>其他</dt>
+                    <dd><a href="">关于我们</a></dd>
+                    <dd><a href="">使用指南</a></dd>
+                    <dd><a href="">加入我们</a></dd>
+                    <dd><a href="">联系我们</a></dd>
+                    <dd><a href="">友情链接</a></dd>
+                </dl>
+                <div class="foot-down">
+                    <p>服务热线:400-678-8266</p>
+                    <i class="foot-iosdown">
+                    <img src="images/app.png" width="115" height="153" class="ioshover">
+                        <img src="images/icon-down-ios.png" width="30" height="30"><em>iphone</em>
+                    </i>
+                    <i class="foot-iosdown">
+                    <img src="images/app1.png" width="115" height="153" class="andiordhover">
+                        <img src="images/icon-down-and.png" width="30" height="30"><em>andirod</em>
+                    </i>
+                </div>
+            </div>
+            <!-- 版权信息 -->
+            <div class="copyright">
+                Copyright © 2013-2016 <a href="jikexueyuan.com">ikexueyuan.com</a> All Rights Reversed. 京ICP备11018032号-8 京公网安备11010802020210
+                <!-- 图片 -->
+                <a href="" class="foot-weibo"></a>
+                <a href="" class="foot-weixin"></a>
+            </div>
+            <!-- 顶部则边栏 -->
+            <div class="foot-rsidle">
+                <a href="#top"><i class="returntop" id="returntop"></i></a>
+                <i class="phonecode">
+                    <img src="images/gotophover1.png" width="126" height="159" class="codehover">
+                </i>
+                <i class="wechat"></i>
+                <i class="service">
+                <!-- 画三角 -->
+                    <em class="sanjiao"></em>
+                    <span class="kefu">在线客服<br/>  工作日9:00-21:00在线</span>
+                </i>
+            </div>
+        </div>
+    </div>
+      <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

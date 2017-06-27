@@ -1,0 +1,196 @@
+//先设置公共属性
+//水平居中
+.auto-center(@margin_tp: 0px) {
+    margin: @margin_tp auto;
+}
+
+//display设置
+.display-set(@d: inline-block) {
+    display: @d;
+}
+
+//浮动设置
+.float-up(@fu: left) {
+    float: @fu;
+}
+
+//水平居中
+.text-center(@align: center) {
+    text-align: @align
+}
+
+//字体设置
+.font-style(@fc: #fff;
+@fs: 12px) {
+    color: @fc;
+    font-size: @fs;
+}
+
+//圆角属性
+.radius(@radius-lt: 0;
+@radius-lr: 0;
+@radius-bt: 0;
+@radius-br: 0) {
+    border-radius: @arguments;
+    -webkit-border-radius: @arguments;
+    -moz-border-radius: @arguments;
+}
+
+//设置宽高
+@article_width: 450px;
+@article_height: 625px;
+//设置背景颜色
+.bg-color(@bg-color: #fff) {
+    background: @bg-color
+}
+
+//设置margin
+.margin(@top: 0;
+@right: 0;
+@button: 0;
+@left: 0) {
+    margin: @arguments;
+}
+
+//清除浮动
+.overhidden(@overhidden: hidden) {
+    overflow: hidden;
+}
+
+//边框+怪异盒子 命名空间
+.bundle {
+    .border {
+        border: 5px solid #ccc;
+    }
+    .box-sizing {
+        box-sizing: border-box;
+    }
+}
+
+.busStop {}
+
+.busStop-warrper {
+    width: @article_width;
+    height: @article_height;
+    .bg-color(green);
+    .auto-center(50px);
+    .bundle>.border;
+    .radius(60px, 60px);
+}
+
+.busStop-top {
+    width: @article_width;
+    height: 270px;
+    .radius(50px, 50px);
+    .bundle>.border;
+    .bundle>.box-sizing;
+    h2 {
+        .radius(8px, 8px);
+        .text-center();
+        border-top: 5px solid #ccc;
+        .margin(30px);
+        .bg-color();
+        padding: 5px 0;
+    }
+    .busStop-detail {
+        .overhidden();
+        .bg-color(#0ea20e);
+        height: 180px;
+        .bundle>.box-sizing;
+    }
+}
+
+.busStop-detail-left {
+    .float-up();
+    height: 100%;
+    width: 130px;
+    .bg-color(#095635);
+    .text-center();
+    .bus {
+        .font-style(red, 16px);
+        width: 100px;
+        height: 50px;
+        .radius(100%, 100%, 100%, 100%);
+        .bg-color();
+        .auto-center(15px);
+        line-height: 50px;
+    }
+    p {
+        margin: 5px;
+        .font-style(#eee, 12px);
+        span {
+            .display-set(block);
+            font-size: 12px;
+        }
+    }
+}
+
+.busStop-detail-right {
+    .busStop-direction {
+        .margin(5px, 0, 0, 130px);
+        .text-center();
+        padding-bottom: 5px;
+        p {
+            .display-set();
+            .font-style(#fff);
+            .block {
+                .display-set();
+            }
+            .line {
+                width: 100px;
+                height: 2px;
+                .margin(0, -5px, 8px, 0);
+                .bg-color;
+            }
+            .triangle {
+                border-color: transparent transparent transparent #ff0000;
+                border-width: 10px;
+                border-style: solid;
+            }
+        }
+    }
+    .bus {
+        .text-center();
+        border-top: 1px solid #ccc;
+        span {
+            .display-set();
+            width: 15px;
+            .font-style(#fff, 12px);
+            line-height: 1.6em;
+        }
+        .there {
+            line-height: 4em;
+        }
+        .four {
+            line-height: 2.7em;
+        }
+        .five {
+            line-height: 2em;
+        }
+        .active {
+            color: red;
+        }
+    }
+}
+
+.busStop-warn {
+    .margin(30px);
+    padding: 10px;
+    .bg-color(#095635);
+    h3 {
+        .text-center();
+        .font-style(#fff, 20px);
+        letter-spacing: 5px;
+    }
+}
+
+.busStop-logo {
+    width: @article_width;
+    height: 150px;
+    .text-center();
+    .margin(30px);
+    .bundle>.border;
+    .bundle>.box-sizing;
+    .radius(10px, 10px);
+}
+

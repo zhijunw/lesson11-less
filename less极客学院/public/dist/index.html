@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>极客学院</title>
+    <link rel="stylesheet" href="style/commen.css">
+    <link rel="stylesheet" href="style/main.css">
+  
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- header start -->
+        <!-- 锚点定位 -->
+        <a href="" name="top"></a>
+        <div class="header">
+            <div class="header-wrap pos">
+                <!-- logo -->
+                <a href="" class="logo">
+                    <img src="images/logo.png" alt="极客学院">
+                </a>
+                <!-- 导航 -->
+                <div class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="" style="color: #35b558">首页</a>
+                        </li>
+                        <li>
+                            职业学院
+                            <i class="icon"></i>
+                            <!-- 二级菜单 -->
+                            <div class="sublist">
+                                <h3>前端学院</h3>
+                                <a href="">
+                                    <i class="web-icon"></i> web前端工程师
+                                </a>
+                                <h3>后端工程师</h3>
+                                <a href="">
+                                    <i class="Python-icon"></i> Python Web工程师
+                                </a>
+                                <a href="">
+                                    <i class="go-icon"></i> go语言工程师
+                                </a>
+                                <h3>移动学院</h3>
+                                <a href="">
+                                    <i class="ios-icon"></i> ios工程师
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            会员课程
+                            <i class="icon"></i>
+                            <div class="sublist vip-lesson">
+                                <a href="css.html">
+                                    <i class="kck-icon"></i> 课程库
+                                    <span>2500+</span>
+                                </a>
+                                <a href="">
+                                    <i class="zylj-icon"></i> 职业路途
+                                    <span>9</span>
+                                </a>
+                                <a href="">
+                                    <i class="zstx-icon"></i> 知识体系图
+                                    <span>24</span>
+                                </a>
+                                <a href="">
+                                    <i class="xlkc-icon"></i> 系列课程
+                                    <span>101</span>
+                                </a>
+                                <a href="">
+                                    <i class="kcbq-icon"></i> 课程标签
+                                    <span>4000+</span>
+                                </a>
+                                <a href="">
+                                    <i class="hygm-icon"></i> VIP会员购买
+                                    <span>30/月 &nbsp260/年</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            极客社区
+                            <i class="icon"></i>
+                            <!-- vip 二级菜单 -->
+                            <div class="sublist vip-lesson">
+                                <a href="">
+                                    <i class="jswd-icon"></i> 技术问答
+                                    <span>20000+</span>
+                                </a>
+                                <a href="">
+                                    <i class="wiki-icon"></i> wiki
+                                    <span>351</span>
+                                </a>
+                                <a href="">
+                                    <i class="sq-icon"></i> 社区
+                                    <span>7000+</span>
+                                </a>
+                                <a href="">
+                                    <i class="zyxz-icon"></i> 资源下载
+                                    <span>3000+</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- 二级菜单结束 -->
+             </div>
+                <!-- 导航结束 -->
+                <!--  -->
+                <div class="login">
+                    <span class="login-search span" id="lg-open"></span>
+                    <span class="login-app span">
+                        <!-- 二维码 -->
+                        <div class="qrcode">
+                            <i class="app-icon"></i>
+                            <img src="images/heade-rwm.png" alt="二维码" width="120px" height="157px">
+                        </div>
+                    </span>
+                    <!--  人物信息-->
+                    <span class="register span" id="register">
+                        <!-- 人物信息下拉框 -->
+                        <div class="sub-register" id="sub-register">
+                            <i class="app-icon"></i>
+                            <span>
+                        <a href="" class="register-btn">注册</a>
+                        |
+                        <a href="" class="register-btn">登录</a>  
+                        </span>
+                            <span>
+                            <i class="xxzx-icon"></i>
+                            <a href="">学习中心</a>
+                        </span>
+                            <span>
+                            <i class="grzy-icon"></i>
+                            <a href="">个人主页</a>
+                        </span>
+                            <span>
+                            <i class="xxtz-icon"></i>
+                            <a href="">消息通知</a>
+                        </span>
+                            <span>
+                            <i class="zhsz-icon"></i>
+                            <a href="">账号设置</a>
+                        </span>
+                        </div>
+                    </span>
+                </div>
+                <div class="login-search-click" id="searchbox">
+                    <i class="click-close"></i>
+                    <i class="click-pic" id="click-close"></i>
+                    <input class="click-search" placeholder="搜索课程、问答或Wiki"></input>
+                    <div class="click-box">
+                        <a href="">Android</a>
+                        <a href="">ios</a>
+                        <a href="">html5</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+        <!-- content start -->
+        <div class="content">
+            <section class="jkbanner">
+                <!-- 视频 -->
+                <div class="jkvideo">
+                    <video src="images/bannervideo4.mp4" width="1920" autoplay="autoplay" loop="loop" class="banner-video">
+                    </video>
+                    <div class="jkvideo-backg"></div>
+                </div>
+                <!-- 极客学院介绍 -->
+                <div class="jkinfo">
+                    <h1>互联网职业在线大学</h1>
+                    <p>欢迎每一位在职场想更进一步的你，极客学院以职业为导向，在一线企业技术领袖的引领下，</p>
+                    <p>通过全新的学习模式和体验，培养更杰出的人才，被全球优秀企业认可。</p>
+                </div>
+                <!-- 下载方式 -->
+                <div class="download">
+                    <a href="" class="android-download"></a>
+                    <a href="" class="ios-download"></a>
+                </div>
+                <span>现在成为极客一员</span>
+                <!-- 登录方式 -->
+                <div class="login-way">
+                    <a href="" class="weixin"></a>
+                    <a href="" class="qq"></a>
+                    <a href="" class="weibo"></a>
+                    <a href="" class="phone"></a>
+                </div>
+                <div class="bannerinfo">
+                    <!-- 学校信息 -->
+                    <div class="collegeinfo">
+                        <div class="cardinfo">
+                            <h3>职业学院</h3>
+                            <p>极客学院以职业为导向，联合一线企业的技术专家，设计学习路径，通过实战训练，培养更符合企业需要的优秀IT人才。</p>
+                        </div>
+                        <!-- 图片 -->
+                        <div class="collegepic">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="htmlcard"></i>
+                                        <em>前端学院</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="pythoncard"></i>
+                                        <em>python学院</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="gocard"></i>
+                                        <em>go学院</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="ioscard"></i>
+                                        <em>ios学院</em>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 课程信息 -->
+                    <div class="classinfo">
+                        <div class="cardinfo">
+                            <h3>专项课程</h3>
+                            <p>已包含2500门视频课程和400本图文Wiki，涵盖全部技术类型，学习时间更灵活可控，是快速学习最新最实战的专业知识的最佳选方式。</p>
+                        </div>
+                        <!-- 图片 -->
+                        <div class="classpic">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="videocard">
+
+                                    </i>
+                                        <em>视频课程</em>
+                                        <em>2500门 / 11大类</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="wikicard">
+                                    
+                                    </i>
+                                        <em>图文wiki</em>
+                                        <em>400门 / 13大类</em>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 社区信息 -->
+                    <div class="communityinfo">
+                        <div class="cardinfo">
+                            <h3>极客社区</h3>
+                            <p>实战是IT技能学习的唯一途径，在极客学院你可以按照最佳的学习路线，在实战教练的带领下，更有针对性的学习和提高。</p>
+                        </div>
+                        <!-- 图片 -->
+                        <div class="communitypic">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="xxcard">
+                                    </i>
+                                        <em>学院</em>
+                                        <em>300万</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="szcard">
+                                    </i>
+                                        <em>实战教练</em>
+                                        <em>2000+</em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="teachercard">
+                                    </i>
+                                        <em>布道师</em>
+                                        <em>500+</em>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 就业，课程信息 -->
+            <section class="jkemployment">
+                <ul>
+                    <li class="jyinfo">
+                        <h3>就业学习</h3>
+                        <p class="jyinfo-text">系统实战 可保就业</p>
+                        <i class="jyinfo-pic">
+                    <img src="images/h2jiuye.jpg" alt="就业" width="128" height="88">
+                    </i>
+                        <span>适用于</span>
+                        <p>大3 ／大4等即将毕业的学生</p>
+                        <p>转行到IT的从业者们</p>
+                        <p>已经入行但工作吃力的新人们</p>
+                    </li>
+                    <li class="margin-b">
+                        <a href="" target="_blank">
+                            <img src="images/course1.jpg" alt="课程" width="371" height="180">
+                        </a>
+                    </li>
+                    <li class="margin-b">
+                        <a href="" target="_blank">
+                            <img src="images/course2.jpg" alt="课程" width="371" height="180">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/course3.jpg" alt="课程" width="243" height="135">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/course4.jpg" alt="课程" width="243" height="135">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/course5.jpg" alt="课程" width="243" height="135">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- end -->
+            <!-- 学习成长计划 -->
+            <section class="jkemployment jkstudy">
+                <ul>
+                    <li class="jyinfo">
+                        <h3>基础学习</h3>
+                        <p class="jyinfo-text">动手务实 基础学习</p>
+                        <i class="jyinfo-pic">
+                    <img src="images/h2base.jpg" alt="基础学习" width="128" height="88">
+                    </i>
+                        <span>适用于</span>
+                        <p>大1／大2／大3等非毕业班学生</p>
+                        <p>以后准备转行到IT的人</p>
+                        <p>对IT有兴趣的非IT从业者</p>
+                    </li>
+                    <li class="margin-b" >
+                        <a href="" target="_blank">
+                            <img src="images/basis1.jpg" alt="课程" width="243" height="158">
+                        </a>
+                    </li>
+                    <li class="margin-b">
+                        <a href="" target="_blank">
+                            <img src="images/basis2.jpg" alt="课程" width="243" height="158">
+                        </a>
+                    </li>
+                    <li class="margin-b">
+                        <a href="" target="_blank">
+                            <img src="images/basis3.jpg" alt="课程" width="243" height="158">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/basis4.jpg" alt="课程" width="243" height="158">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/basis5.jpg" alt="课程" width="243" height="158">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/basis6.jpg" alt="课程" width="243" height="158">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- end -->
+            <section class="jkemployment jkimproved">
+                <ul>
+                    <li class="jyinfo">
+                        <h3>专项提高</h3>
+                        <p class="jyinfo-text">拥有功底 提高技能</p>
+                        <i class="jyinfo-pic">
+                    <img src="images/h2sku.jpg" alt="专项提高" width="128" height="88">
+                    </i>
+                        <span>适用于</span>
+                        <p>刚入行的新手</p>
+                        <p>需要快速提高工作能力</p>
+                        <p>想要变得更好的</p>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/improved1.jpg" alt="课程" width="371" height="158">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/improved2.jpg" alt="课程" width="371" height="158">
+                        </a>
+                    </li>
+                    <li class="margin-b">
+                        <a href="" target="_blank">
+                            <img src="images/improved3.jpg" alt="课程" width="371" height="158">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/improved4.jpg" alt="课程" width="371" height="158">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- end -->
+            <!-- 技术大咖 -->
+            <section class="jkteacher">
+                <ul>
+                    <li class="teacher-pic">
+                        <h3>我是技术大咖</h3>
+                        <p>专注技术 乐于分享</p>
+                        <i>
+                        <img src="images/teacher.jpg" alt="" width="105" height="72" class="h2class">
+                    </i>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/teacher2.jpg" alt="" width="371" height="158">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images/teacher3.jpg" alt="" width="371" height="158">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- end -->
+            <!-- 小白 -->
+            <section class="jkteacher probie">
+                <ul>
+                    <li class="teacher-pic">
+                        <h3>我是纯小白</h3>
+                        <p>每个人都从小白开始</p>
+                        <i>
+                        <img src="images/xiaobai.jpg" alt="" width="105" height="72" class="h2class">
+                    </i>
+                    </li>
+                    <li class="info-pic">
+                        <i>
+                       <a href="">
+                        <img src="images/xiaobai2.jpg" alt="" width="41" height="55">
+                        </a>
+                    </i>
+                        <h3>新手指南</h3>
+                        <p>（详细的学习指南）</p>
+                    </li>
+                    <li class="info-pic">
+                        <i>
+                        <a href="">
+                        <img src="images/xiaobai3.jpg" alt="" width="55" height="48">
+                        </a>
+                    </i>
+                        <h3>人工咨询</h3>
+                        <p>（免费咨询）</p>
+                    </li>
+                    <li class="info-pic">
+                        <i>
+                        <img src="images/xiaobai4.jpg" alt="" width="55" height="55">
+                    </i>
+                        <h3>400-678-8266</h3>
+                        <p>（免费电话咨询）</p>
+                    </li>
+            </section>
+            <!-- 极客学生 -->
+            <section class="jkstudent">
+                <ul>
+                    <li class="jkcompany">
+                        <h3>他们的故事</h3>
+                        <p>和企业一起培养优秀的工程师</p>
+                        <!-- 合作公司 -->
+                        <ul>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company1.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company2.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company3.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company4.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company5.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company6.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company7.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company8.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company9.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company10.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company11.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company12.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company13.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company14.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company15.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company16.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company17.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img src="images/company18.jpg" alt="" width="56" height="56">
+                                </a>
+                            </li>
+                        </ul>
+                        <li>
+                            <a href="">
+                                <img src="images/student1.jpg" alt="" width="60" height="60" class="person">
+                                <p class="name">朱华宇</p>
+                                <p class="job">前端工程开发工程师</p>
+                                <p class="status">已入职</p>
+                                <img src="images/student1-company.jpg" alt="" width="54" height="20">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/student2.jpg" alt="" width="60" height="60" class="person">
+                                <p class="name">黄文俊</p>
+                                <p class="job">前端工程开发工程师</p>
+                                <p class="status">已入职</p>
+                                <img src="images/student2-company.jpg" alt="" width="20" height="20">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/student3.jpg" alt="" width="60" height="60" class="person">
+                                <p class="name">王浩博</p>
+                                <p class="job">前端工程开发工程师</p>
+                                <p class="status">已入职</p>
+                                <img src="images/student3-company.jpg" alt="" width="58" height="20">
+                            </a>
+                        </li>
+                        <li class="margin-t">
+                            <a href="">
+                                <img src="images/student4.jpg" alt="" width="60" height="60" class="person">
+                                <p class="name">张少龙</p>
+                                <p class="job">android开发工程师</p>
+                                <p class="status">已入职</p>
+                                <img src="images/student4-company.jpg" alt="" width="90" height="20">
+                            </a>
+                        </li>
+                        <li class="margin-t">
+                            <a href="">
+                                <img src="images/student5.jpg" alt="" width="60" height="60" class="person">
+                                <p class="name">杨帆</p>
+                                <p class="job">前端工程开发工程师</p>
+                                <p class="status">已入职</p>
+                                <img src="images/student5-company.jpg" alt="" width="53" height="20">
+                            </a>
+                        </li>
+                        <li class="margin-t">
+                            <a href="">
+                                <img src="images/student6.jpg" alt="" width="60" height="60" class="person">
+                                <p class="name">路昕宇</p>
+                                <p class="job">前端工程开发工程师</p>
+                                <p class="status">已入职</p>
+                                <img src="images/student6-company.jpg" alt="" width="53" height="20">
+                            </a>
+                        </li>
+                </ul>
+            </section>
+            <!-- 极客组织 -->
+            <section class="jkteacher jkorgan">
+                <ul>
+                    <li class="teacher-pic">
+                        <h3>让每个人</h3>
+                        <p>都能享受最高等的教育</p>
+                    </li>
+                    <li class="info-pic">
+                        <i>
+                       <a href="">
+                        <img src="images/organ1.jpg" alt="" width="55" height="48">
+                        </a>
+                    </i>
+                        <h3>院校</h3>
+                        <p>为学生进入职场早日准备</p>
+                    </li>
+                    <li class="info-pic">
+                        <i>
+                       <a href="">
+                        <img src="images/organ2.jpg" alt="" width="55" height="48">
+                        </a>
+                    </i>
+                        <h3>企业</h3>
+                        <p>给员工提供可持续技能提升</p>
+                    </li>
+                    <li class="info-pic">
+                        <i>
+                       <a href="">
+                        <img src="images/organ3.jpg" alt="" width="55" height="48">
+                        </a>
+                    </i>
+                        <h3>培训结构</h3>
+                        <p>为了让学员更好地学习</p>
+                    </li>
+                </ul>
+            </section>
+            <!-- end -->
+        </div>
+        <!-- content end -->
+        <!-- foot start -->
+        <div class="foot">
+            <!-- 底部信息 -->
+            <div class="footwrap">
+                <div class="footinfo">
+                    <!-- logo -->
+                    <div class="footinfo-logo">
+                        <img src="images/footer.png" width="109" height="40">
+                        <p>极客学院，编程是一种信仰！</p>
+                    </div>
+                    <dl>
+                        <dt>职业学院</dt>
+                        <dd><a href="">web前端工程师</a></dd>
+                        <dd><a href="">phython工程师</a></dd>
+                        <dd><a href="">Go语言工程师</a></dd>
+                        <dd><a href="">Ios工程师</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>会员课程</dt>
+                        <dd><a href="">课程库</a></dd>
+                        <dd><a href="">知识体系库</a></dd>
+                        <dd><a href="">职业路径库</a></dd>
+                        <dd><a href="">系列课程</a></dd>
+                        <dd><a href="">课程标签</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>极客社区</dt>
+                        <dd><a href="">技术问答</a></dd>
+                        <dd><a href="">wiki</a></dd>
+                        <dd><a href="">资源下载</a></dd>
+                        <dd><a href="">社群</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>其他</dt>
+                        <dd><a href="">关于我们</a></dd>
+                        <dd><a href="">使用指南</a></dd>
+                        <dd><a href="">加入我们</a></dd>
+                        <dd><a href="">联系我们</a></dd>
+                        <dd><a href="">友情链接</a></dd>
+                    </dl>
+                    <div class="foot-down">
+                        <p>服务热线:400-678-8266</p>
+                        <i class="foot-iosdown">
+                    <img src="images/app.png" width="115" height="153" class="ioshover">
+                        <img src="images/icon-down-ios.png" width="30" height="30"><em>iphone</em>
+                    </i>
+                        <i class="foot-iosdown">
+                    <img src="images/app1.png" width="115" height="153" class="andiordhover">
+                        <img src="images/icon-down-and.png" width="30" height="30"><em>andirod</em>
+                    </i>
+                    </div>
+                </div>
+                <!-- 版权信息 -->
+                <div class="copyright">
+                    Copyright © 2013-2016 <a href="jikexueyuan.com">ikexueyuan.com</a> All Rights Reversed. 京ICP备11018032号-8 京公网安备11010802020210
+                    <!-- 图片 -->
+                    <a href="" class="foot-weibo"></a>
+                    <a href="" class="foot-weixin"></a>
+                </div>
+                <!-- 顶部则边栏 -->
+                <div class="foot-rsidle">
+                    <a href="#top"><i class="returntop" id="returntop"></i></a>
+                    <i class="phonecode">
+                    <img src="images/gotophover1.png" width="126" height="159" class="codehover">
+                </i>
+                    <i class="wechat"></i>
+                    <i class="service">
+                <!-- 画三角 -->
+                    <em class="sanjiao"></em>
+                    <span class="kefu">在线客服<br/>  工作日9:00-21:00在线</span>
+                </i>
+                </div>
+            </div>
+        </div>
+        <!-- foot end -->
+          <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    </div>
+</body>
+
+</html>

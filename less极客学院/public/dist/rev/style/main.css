@@ -1,0 +1,1185 @@
+body,
+html {
+  width: 100%;
+}
+.warp {
+  width: 100%;
+  position: relative;
+  background: #fafafa;
+}
+.header {
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+}
+.header-wrap {
+  height: 60px;
+  width: 1000px;
+  margin: 0px auto;
+}
+.pos {
+  position: relative;
+}
+@keyframes totate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+}
+.header-wrap .logo img {
+  float: left;
+  margin: 10px 60px 0 0;
+  height: 40px;
+  width: 109px;
+}
+.header-wrap .header-nav {
+  float: left;
+  height: 60px;
+}
+.header-wrap .header-nav li {
+  float: left;
+  position: relative;
+  margin: 0 50px 0 0;
+  font-size: 14px;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.header-wrap .header-nav li:hover {
+  color: #35b558;
+}
+.header-wrap .header-nav li:hover .sublist {
+  display: block;
+}
+.header-wrap .header-nav li:hover i.icon {
+  border-top: 1px solid #35b558;
+  border-left: 1px solid #35b558;
+  transform: rotate(-135deg);
+  animation: totate 1s ease both;
+}
+.header-wrap .header-nav .icon {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #c1c1c1;
+  border-left: 1px solid #c1c1c1;
+  transform: rotate(-135deg);
+  margin: 0 0 1px 2px;
+}
+.header-wrap .header-nav .sublist {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 999;
+  width: 280px;
+  font-size: 12px;
+  background: #fff;
+}
+.sublist i {
+  display: inline-block;
+  background: url(../images/allicon.png) no-repeat;
+  background-size: 64px 64px;
+  width: 14px;
+  height: 14px;
+  margin: 0 10px 0 10px;
+}
+.sublist a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px 0 15px;
+  color: #666;
+}
+.sublist a:hover {
+  color: #35b558;
+}
+.sublist h3 {
+  margin: 10px 0;
+  padding: 0 15px;
+  height: 28px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #666;
+  background: #fafafa;
+}
+.sublist .web-icon {
+  background-position: -15px -25px;
+}
+.sublist .Python-icon {
+  background: url(../images/allicon3.png) no-repeat;
+  background-size: 16px 148px;
+  background-position: 0 0;
+}
+.sublist .go-icon {
+  background: url(../images/allicon3.png) no-repeat;
+  background-size: 16px 148px;
+  background-position: 0 -37px;
+}
+.sublist .ios-icon {
+  background: url(../images/allicon3.png) no-repeat;
+  background-size: 16px 148px;
+  background-position: 0 -82px;
+}
+.vip-lesson {
+  position: absolute;
+  left: -25px;
+  top: 60px;
+}
+.vip-lesson a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+.vip-lesson a:hover {
+  color: #35b558;
+  background: #fafafa;
+}
+.vip-lesson span {
+  float: right;
+  color: #bbb;
+}
+.vip-lesson .kck-icon {
+  background-position: 0 -10px;
+}
+.vip-lesson .zylj-icon {
+  background-position: -45px 0;
+}
+.vip-lesson .zstx-icon {
+  background-position: -30px -12px;
+}
+.vip-lesson .xlkc-icon {
+  background-position: -30px 0;
+}
+.vip-lesson .kcbq-icon {
+  background-position: -15px -12px;
+}
+.vip-lesson .hygm-icon {
+  background-position: -15px 0;
+}
+.vip-lesson .jswd-icon {
+  background-position: 0 -25px;
+}
+.vip-lesson .wiki-icon {
+  background-position: -29px -24px;
+}
+.vip-lesson .sq-icon {
+  background-position: 0 3px;
+}
+.vip-lesson .zyxz-icon {
+  background-position: -30px 0;
+}
+@keyframes demo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.login {
+  float: right;
+  position: relative;
+  height: 60px;
+  width: 210px;
+  text-align: center;
+}
+.login .span {
+  display: inline-block;
+  height: 40px;
+  width: 17px;
+  margin: 20px 0 0 25px;
+  cursor: pointer;
+}
+.login .login-search {
+  background: url(../images/search-icon.png) no-repeat;
+  background-size: 17px 17px;
+  background-position: 0 0;
+}
+.login .login-search:hover {
+  background: url(../images/search-icon2.png) no-repeat;
+  background-size: 17px 17px;
+}
+.login .login-app {
+  background: url(../images/app-icon.png) no-repeat;
+  background-size: 17px 17px;
+}
+.login .login-app:hover {
+  background: url(../images/app-icons.png) no-repeat;
+  background-size: 17px 17px;
+}
+.login .login-app:hover .qrcode {
+  display: block;
+  opacity: 1;
+  -webkit-animation: demo 1.5s ease;
+  animation: demo 1s ease;
+}
+.login .login-app .qrcode {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  width: 120px;
+  background: #fff;
+  z-index: 9999;
+}
+.register {
+  background: url(../images/login-icon.png) no-repeat;
+  background-size: 17px 17px;
+  background-position: 0 0;
+}
+.register:hover .sub-register {
+  display: block;
+  opacity: 1;
+  -webkit-animation: demo 1.5s ease;
+  animation: demo 1s ease;
+}
+.register .sub-register {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 148px;
+  width: 120px;
+  background: #fff;
+  z-index: 9999;
+  /*	opacity: 0;
+	transition:all 2s;*/
+}
+.register .sub-register span {
+  display: block;
+  font-size: 12px;
+  height: 35px;
+  line-height: 35px;
+  text-align: left;
+  padding-left: 15px;
+}
+.register .sub-register span:hover {
+  background: #f5f5f5;
+}
+.register .sub-register span i {
+  background: url(../images/allicon2.png) no-repeat;
+  background-size: 64px 64px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  padding: 0 2px;
+}
+.register .sub-register .register-btn {
+  display: inline-block;
+}
+.register .sub-register a {
+  color: #666;
+}
+.register .sub-register a:hover {
+  color: #35b558;
+}
+.register .sub-register .xxzx-icon {
+  background-position: -15px -15px;
+}
+.register .sub-register .grzy-icon {
+  background-position: -45px 0;
+}
+.register .sub-register .xxtz-icon {
+  background-position: -16px -47px;
+}
+.register .sub-register .zhsz-icon {
+  background-position: -29px 0;
+}
+.register .app-icon {
+  position: absolute;
+  top: -8px;
+  left: 47px;
+  height: 15px;
+  width: 15px;
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  transform: rotate(40deg);
+  background: #fff;
+}
+.login-search-click {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 300px;
+  height: 59px;
+  background: #fff;
+  opacity: 0;
+}
+.login-search-click .click-pic {
+  background: url(../images/close.png) no-repeat;
+  background-size: 100%;
+  width: 15px;
+  height: 15px;
+  margin-top: 22px;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+}
+.login-search-click .click-close {
+  background: url(../images/search-icon.png) no-repeat;
+  background-size: 17px 17px;
+  width: 17px;
+  height: 17px;
+  margin-top: 22px;
+  position: absolute;
+  left: 0;
+}
+.login-search-click .click-search {
+  width: 400px;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 0 0 20px;
+  outline: none;
+  border: 0;
+}
+.login-search-click .click-box {
+  width: 300px;
+  height: 60px;
+  line-height: 61px;
+  display: inline-block;
+  float: right;
+  text-align: right;
+  margin-right: 50px;
+}
+.login-search-click .click-box a {
+  font-size: 12px;
+  color: #808080;
+  background: #f5f5f5;
+  padding: 3px 5px;
+  margin-left: 10px;
+}
+.content {
+  background: #f9f9f9;
+}
+.content .jkvideo {
+  position: relative;
+  width: 100%;
+  height: 525px;
+  overflow: hidden;
+}
+.content .jkvideo .jkvideo .banner-video {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  height: 525px;
+}
+.content .jkvideo .jkvideo-backg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 525px;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+.content .jkinfo {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: 525px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.content .jkinfo h1 {
+  height: 45px;
+  font-size: 35px;
+  color: #fff;
+  margin: 45px 0 25px 0;
+}
+.content .jkinfo p {
+  font-size: 13px;
+  color: #fafafa;
+  height: 21px;
+  line-height: 21px;
+}
+.content .download {
+  position: absolute;
+  top: 260px;
+  width: 100%;
+  height: 44px;
+  text-align: center;
+  /*安卓*/
+  /*ios*/
+}
+.content .download .android-download {
+  display: inline-block;
+  background: url(../images/anddown.png) no-repeat;
+  background-size: 141px 44px;
+  height: 44px;
+  width: 141px;
+  margin-right: 25px;
+}
+.content .download .android-download:hover {
+  background: url(../images/anddownhover.png) no-repeat;
+  background-size: 141px 44px;
+}
+.content .download .ios-download {
+  display: inline-block;
+  background: url(../images/iosdown.png) no-repeat;
+  background-size: 141px 44px;
+  height: 44px;
+  width: 141px;
+}
+.content .download .ios-download:hover {
+  background: url(../images/iosdownhover.png) no-repeat;
+  background-size: 141px 44px;
+}
+.content .bannerinfo {
+  position: relative;
+  top: -130px;
+  height: 240px;
+  width: 1025px;
+  margin: 0 auto;
+  text-align: center;
+}
+.login-way {
+  position: absolute;
+  top: 370px;
+  width: 100%;
+  height: 38px;
+  text-align: center;
+  /*微信*/
+  /*QQ*/
+  /*微博*/
+}
+.login-way .weixin {
+  background: url(../images/weixinlogin.png) no-repeat center;
+  display: inline-block;
+  background-size: 38px 38px;
+  width: 38px;
+  height: 38px;
+}
+.login-way .weixin:hover {
+  background: url(../images/weixinloginhover.png) no-repeat center / 38px 38px;
+}
+.login-way .qq {
+  background: url(../images/qqlogin.png) no-repeat center;
+  display: inline-block;
+  background-size: 38px 38px;
+  width: 38px;
+  height: 38px;
+  margin: 0 25px;
+}
+.login-way .qq:hover {
+  background: url(../images/qqloginhover.png) no-repeat center / 38px 38px;
+}
+.login-way .weibo {
+  background: url(../images/weibologin.png) no-repeat center;
+  display: inline-block;
+  background-size: 38px 38px;
+  width: 38px;
+  height: 38px;
+}
+.login-way .weibo:hover {
+  background: url(../images/weibologinhover.png) no-repeat center / 38px 38px;
+}
+.login-way .phone {
+  background: url(../images/phonelogin.png) no-repeat center;
+  display: inline-block;
+  background-size: 38px 38px;
+  width: 38px;
+  height: 38px;
+  margin-left: 25px;
+}
+.login-way .phone:hover {
+  background: url(../images/phoneloginhover.png) no-repeat center / 38px 38px;
+}
+.jkbanner span {
+  position: absolute;
+  top: 340px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+.bannerinfo .collegeinfo {
+  float: left;
+  width: 320px;
+  height: 240px;
+  background: #fff;
+}
+.bannerinfo .collegepic {
+  height: 110px;
+}
+.bannerinfo .collegepic li {
+  float: left;
+  height: 75px;
+  width: 25%;
+  font-size: 12px;
+}
+.bannerinfo .collegepic li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.bannerinfo .collegepic li i {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #eee;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  margin-top: 25px;
+}
+.bannerinfo .collegepic .htmlcard {
+  background: url(../images/cardhtml5.jpg) no-repeat center;
+  background-size: 30px 35px;
+}
+.bannerinfo .collegepic .htmlcard:hover {
+  border: 1px solid #dc4d10;
+}
+.bannerinfo .collegepic .pythoncard {
+  background: url(../images/cardpython.png) no-repeat center;
+  background-size: 30px 35px;
+}
+.bannerinfo .collegepic .pythoncard:hover {
+  border: 1px solid yellow;
+}
+.bannerinfo .collegepic .gocard {
+  background: url(../images/cardgo.png) no-repeat center;
+  background-size: 30px 35px;
+}
+.bannerinfo .collegepic .gocard:hover {
+  border: 1px solid purple;
+}
+.bannerinfo .collegepic .ioscard {
+  background: url(../images/cardios.jpg) no-repeat center;
+  background-size: 30px 35px;
+}
+.bannerinfo .collegepic .ioscard:hover {
+  border: 1px solid grey;
+}
+.bannerinfo .classinfo {
+  float: left;
+  width: 320px;
+  height: 240px;
+  background: #fff;
+  margin: 0 25px;
+}
+.bannerinfo .classinfo .classpic {
+  height: 110px;
+}
+.bannerinfo em {
+  display: block;
+  color: #666;
+  margin: 10px 0;
+}
+.bannerinfo em:hover {
+  color: #35b558;
+}
+.bannerinfo .cardinfo {
+  height: 130px;
+  width: 320px;
+  font-size: 13px;
+  background: #f9f9f9;
+}
+.bannerinfo .cardinfo h3 {
+  font-size: 18px;
+  color: #333;
+  height: 50px;
+  line-height: 50px;
+}
+.bannerinfo .cardinfo p {
+  height: 80px;
+  line-height: 20px;
+  color: #444;
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 10px 17px;
+}
+.classpic li {
+  float: left;
+  height: 100%;
+  width: 50%;
+  font-size: 12px;
+  color: #444;
+}
+.classpic li i {
+  display: inline-block;
+  height: 80px;
+  width: 50px;
+  margin-bottom: -23px;
+}
+.classpic .videocard {
+  background: url(../images/cardvideo.jpg) no-repeat center / 30px 30px;
+  opacity: 0.7;
+}
+.classpic .videocard:hover {
+  opacity: 1;
+}
+.classpic .wikicard {
+  background: url(../images/cardwiki.jpg) no-repeat center / 30px 30px;
+  opacity: 0.7;
+}
+.classpic .wikicard:hover {
+  opacity: 1;
+}
+.communityinfo {
+  float: left;
+  width: 320px;
+  height: 130px;
+  background: #fff;
+}
+.communityinfo .communitypic {
+  height: 110px;
+  background: #fff;
+}
+.communityinfo .communitypic li {
+  float: left;
+  height: 100%;
+  width: 30%;
+  font-size: 12px;
+  color: #444;
+}
+.communityinfo .communitypic i {
+  display: inline-block;
+  height: 80px;
+  width: 50px;
+  margin-bottom: -23px;
+}
+.communityinfo .communitypic .xxcard {
+  background: url(../images/cardxue.jpg) no-repeat center / 30px 30px;
+}
+.communityinfo .communitypic .szcard {
+  background: url(../images/cardjiao.jpg) no-repeat center / 30px 30px;
+}
+.communityinfo .communitypic .teachercard {
+  background: url(../images/cardbu.jpg) no-repeat center / 30px 30px;
+}
+.jkemployment {
+  position: relative;
+  top: -103px;
+  margin: 0px auto;
+  height: 330px;
+  width: 1015px;
+  box-sizing: border-box;
+}
+.jkemployment li {
+  float: left;
+  margin-right: 14px;
+}
+.jkemployment li:nth-child(n+2):hover {
+  box-shadow: 5px 5px 8px #ccc;
+  -webkit-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+}
+.jkemployment .margin-b {
+  margin-bottom: 14px;
+}
+.jkemployment .jyinfo {
+  width: 230px;
+  height: 330px;
+  background: #fff;
+}
+.jkemployment .jyinfo h3 {
+  height: 35px;
+  line-height: 35px;
+  font-size: 19px;
+  border-left: 2px solid #35b558;
+  font-weight: 400;
+  padding-left: 15px;
+}
+.jkemployment .jyinfo .jyinfo-text {
+  font-size: 14px;
+  color: #333;
+  padding-left: 17px;
+  margin-top: 5px;
+  height: 20px;
+  line-height: 20px;
+}
+.jkemployment .jyinfo .jyinfo-pic {
+  display: inline-block;
+  width: 230px;
+  height: 155px;
+  text-align: center;
+}
+.jkemployment .jyinfo .jyinfo-pic img {
+  margin-top: 38px;
+}
+.jkemployment .jyinfo p {
+  font-size: 12px;
+  color: #666;
+  padding-left: 17px;
+  line-height: 22px;
+}
+.jkemployment .jyinfo span {
+  display: block;
+  width: 62px;
+  height: 18px;
+  line-height: 16px;
+  font-size: 12px;
+  color: grey;
+  border: 1px solid #eee;
+  margin: 0 0 5px 17px;
+}
+.jkemployment .jyinfo span:before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background: #35b558 url(../images/h2icon.png) no-repeat center / 15px 14px;
+}
+.jkstudy {
+  margin-top: 30px;
+}
+.jkstudy .jyinfo span:before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background: #2D85C7 url(../images/h2icon.png) no-repeat center / 15px 14px;
+}
+.jkstudy .jyinfo h3 {
+  border-left: 2px solid #2d85c7;
+}
+.jkstudy .margin-b {
+  margin-bottom: 14px;
+}
+.jkimproved .jyinfo span:before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+  background: #ff5c00 url(../images/h2icon.png) no-repeat center / 15px 14px;
+}
+.jkimproved .jyinfo h3 {
+  border-left: 2px solid #ff5c00;
+}
+.jkimproved .margin-b {
+  margin-right: 14px;
+}
+.jkteacher {
+  position: relative;
+  top: -77px;
+  box-sizing: border-box;
+  height: 158px;
+  width: 1015px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.jkteacher ul {
+  float: left;
+  overflow: hidden;
+}
+.jkteacher li {
+  float: left;
+  margin-right: 14px;
+  width: 371px;
+  height: 158px;
+  background: #fff;
+}
+.jkteacher li i {
+  display: block;
+  height: 63px;
+  text-align: center;
+}
+.jkteacher .teacher-pic {
+  height: 158px;
+  width: 230px;
+}
+.jkteacher .teacher-pic p {
+  font-size: 14px;
+  color: #333;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 17px;
+  margin-top: 5px;
+}
+.jkteacher .teacher-pic h3 {
+  font-size: 19px;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  border-left: 2px solid #ad3a37;
+  padding-left: 15px;
+}
+.jkteacher .h2class {
+  margin-top: 25px;
+}
+/*极客菜鸟，极客教育的公共部分*/
+.probie {
+  margin-top: 30px;
+}
+.probie .info-pic {
+  text-align: center;
+  width: 243px;
+  height: 158px;
+}
+.probie .info-pic i {
+  display: block;
+  height: 55px;
+  margin-top: 30px;
+}
+.probie .info-pic h3 {
+  height: 25px;
+  line-height: 25px;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+.probie .info-pic p {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+.jkorgan {
+  position: relative;
+  top: -15px;
+  width: 1015px;
+  height: 158px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.jkorgan .info-pic {
+  text-align: center;
+  width: 243px;
+  height: 158px;
+}
+.jkorgan .info-pic i {
+  display: block;
+  height: 55px;
+  margin-top: 30px;
+}
+.jkorgan .info-pic h3 {
+  height: 25px;
+  line-height: 25px;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+.jkorgan .info-pic p {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+.jkorgan .info-pic:hover {
+  box-shadow: 5px 5px 5px #ccc;
+  -webkit-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+}
+.jkorgan li {
+  float: left;
+  margin-right: 14px;
+}
+/*极客学生*/
+.jkstudent {
+  height: 500px;
+  width: 1015px;
+  margin: 0 auto;
+  position: relative;
+  top: -45px;
+}
+.jkstudent li {
+  float: left;
+  background: #fff;
+  margin-right: 14px;
+  height: 243px;
+  width: 243px;
+  text-align: center;
+}
+.jkstudent li:hover {
+  box-shadow: 5px 5px 5px #ccc;
+  -webkit-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+}
+.jkstudent .margin-t {
+  margin-top: 14px;
+}
+.jkstudent .name {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+.jkstudent .job {
+  font-size: 12px;
+  color: grey;
+  margin-top: 10px;
+}
+.jkstudent .status {
+  font-size: 12px;
+  color: grey;
+  margin: 40px 0 10px 0;
+}
+.jkstudent .person {
+  margin-top: 30px;
+}
+.jkstudent .jkcompany {
+  height: 500px;
+  width: 230px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.jkcompany p {
+  font-size: 14px;
+  color: #333;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 17px;
+  margin-top: 5px;
+}
+.jkcompany h3 {
+  font-size: 19px;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  border-left: 2px solid #ad3a37;
+  padding-left: 15px;
+}
+.jkcompany ul {
+  padding-left: 17px;
+}
+.jkcompany ul li {
+  float: left;
+  height: 56px;
+  width: 56px;
+  margin: 14px 14px 0 0;
+}
+.jkcompany ul li:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.foot {
+  position: relative;
+  top: 35px;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+  /*顶部则边栏*/
+}
+.foot .footinfo {
+  width: 1015px;
+  height: 215px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 25px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.foot .copyright {
+  width: 1015px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  padding: 15px 0;
+}
+.foot .copyright a {
+  color: #999;
+}
+.foot .copyright a:hover {
+  color: #35b558;
+}
+.foot .copyright .foot-weibo {
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  float: right;
+  margin-left: 10px;
+  background: url(../images/sina.png) center / 20px 18px;
+}
+.foot .copyright .foot-weixin {
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  float: right;
+  background: url(../images/wechat.png) center / 20px 18px;
+}
+.foot .foot-rsidle {
+  position: fixed;
+  left: 50%;
+  margin-left: 510px;
+  bottom: 50px;
+  width: 34px;
+  text-align: center;
+  z-index: 2000;
+  background: #f7f7f7;
+}
+.foot .foot-rsidle .returntop {
+  display: block;
+  background: url(../images/gotop.jpg) no-repeat center / 34px 103px;
+  background-position: 0 0;
+  width: 34px;
+  height: 34px;
+}
+.foot .foot-rsidle .returntop:hover {
+  background: url(../images/gotophover.jpg) no-repeat center / 34px 103px;
+  background-position: 0 0;
+}
+.foot .foot-rsidle .phonecode {
+  display: block;
+  background: url(../images/gotop1.png) no-repeat center / 12px 24px;
+  width: 34px;
+  height: 34px;
+}
+.foot .foot-rsidle .phonecode:hover .codehover {
+  display: block;
+  position: absolute;
+  top: -20px;
+  right: 35px;
+}
+.foot .foot-rsidle .phonecode .codehover {
+  display: none;
+}
+.foot .foot-rsidle .wechat {
+  display: block;
+  background: url(../images/gotop2.jpg) no-repeat center / 34px 34px;
+  width: 34px;
+  height: 34px;
+}
+.foot .foot-rsidle .service {
+  display: block;
+  background: url(../images/gotop3.png) no-repeat center;
+  width: 34px;
+  height: 34px;
+}
+.foot .foot-rsidle .service:hover .kefu {
+  display: block;
+}
+.foot .foot-rsidle .service:hover .sanjiao {
+  display: block;
+}
+.foot .foot-rsidle .service .kefu {
+  display: none;
+  position: absolute;
+  top: 102px;
+  right: 42px;
+  width: 180px;
+  height: 34px;
+  line-height: 17px;
+  font-size: 12px;
+  color: #333;
+  background: #f7f7f7;
+}
+.foot .foot-rsidle .sanjiao {
+  display: none;
+  position: absolute;
+  top: 110px;
+  right: 24px;
+  border: 9px solid transparent;
+  border-left: 9px solid #f7f7f7;
+}
+.footinfo p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 20px;
+}
+.footinfo .footinfo-logo {
+  float: left;
+  margin-right: 70px;
+}
+.footinfo dl {
+  float: left;
+  width: 135px;
+  color: #808080;
+  margin: 0;
+}
+.footinfo dl dt {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+.footinfo dd {
+  font-size: 12px;
+  line-height: 30px;
+}
+.footinfo dd a {
+  color: #909090;
+}
+.footinfo dd a:hover {
+  color: #35b558;
+}
+.footinfo .foot-down {
+  float: left;
+  width: 170px;
+  margin-left: 40px;
+}
+.footinfo .foot-down p {
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 20px;
+}
+.footinfo .foot-down .foot-iosdown {
+  display: flex;
+  width: 140px;
+  height: 30px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.footinfo .foot-down .foot-iosdown:hover .ioshover {
+  display: block;
+}
+.footinfo .foot-down .foot-iosdown:hover .andiordhover {
+  display: block;
+}
+.footinfo .foot-down .foot-iosdown p {
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 20px;
+}
+.footinfo .foot-down .foot-iosdown em {
+  flex: 1;
+  font-size: 14px;
+  color: #909090;
+  padding: 5px;
+}
+.footinfo .foot-down .ioshover {
+  display: none;
+  position: absolute;
+  top: -68px;
+}
+.footinfo .foot-down .andiordhover {
+  display: none;
+  position: absolute;
+  top: -25px;
+}
+.similar .bg-size {
+  display: inline-block;
+  background-size: 38px 38px;
+  width: 38px;
+  height: 38px;
+}
+.similar .before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.similar .jk-p {
+  font-size: 14px;
+  color: #333;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 17px;
+  margin-top: 5px;
+}
+.similar .jk-h3 {
+  font-size: 19px;
+  font-weight: 400;
+  height: 30px;
+  line-height: 30px;
+  border-left: 2px solid #ad3a37;
+  padding-left: 15px;
+}
+.similar .foot-pic {
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  float: right;
+}

@@ -1,0 +1,138 @@
+.bundle .border {
+  border: 5px solid #ccc;
+}
+.bundle .box-sizing {
+  box-sizing: border-box;
+}
+.busStop-warrper {
+  width: 450px;
+  height: 625px;
+  background: green;
+  margin: 50px auto;
+  border: 5px solid #ccc;
+  border-radius: 60px 60px 0 0;
+  -webkit-border-radius: 60px 60px 0 0;
+  -moz-border-radius: 60px 60px 0 0;
+}
+.busStop-top {
+  width: 450px;
+  height: 270px;
+  border-radius: 50px 50px 0 0;
+  -webkit-border-radius: 50px 50px 0 0;
+  -moz-border-radius: 50px 50px 0 0;
+  border: 5px solid #ccc;
+  box-sizing: border-box;
+}
+.busStop-top h2 {
+  border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  text-align: center;
+  border-top: 5px solid #ccc;
+  margin: 30px 0 0 0;
+  background: #fff;
+  padding: 5px 0;
+}
+.busStop-top .busStop-detail {
+  overflow: hidden;
+  background: #0ea20e;
+  height: 180px;
+  box-sizing: border-box;
+}
+.busStop-detail-left {
+  float: left;
+  height: 100%;
+  width: 130px;
+  background: #095635;
+  text-align: center;
+}
+.busStop-detail-left .bus {
+  color: red;
+  font-size: 16px;
+  width: 100px;
+  height: 50px;
+  border-radius: 100% 100% 100% 100%;
+  -webkit-border-radius: 100% 100% 100% 100%;
+  -moz-border-radius: 100% 100% 100% 100%;
+  background: #fff;
+  margin: 15px auto;
+  line-height: 50px;
+}
+.busStop-detail-left p {
+  margin: 5px;
+  color: #eee;
+  font-size: 12px;
+}
+.busStop-detail-left p span {
+  display: block;
+  font-size: 12px;
+}
+.busStop-detail-right .busStop-direction {
+  margin: 5px 0 0 130px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.busStop-detail-right .busStop-direction p {
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+}
+.busStop-detail-right .busStop-direction p .block {
+  display: inline-block;
+}
+.busStop-detail-right .busStop-direction p .line {
+  width: 100px;
+  height: 2px;
+  margin: 0 -5px 8px 0;
+  background: #fff;
+}
+.busStop-detail-right .busStop-direction p .triangle {
+  border-color: transparent transparent transparent #ff0000;
+  border-width: 10px;
+  border-style: solid;
+}
+.busStop-detail-right .bus {
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.busStop-detail-right .bus span {
+  display: inline-block;
+  width: 15px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.6em;
+}
+.busStop-detail-right .bus .there {
+  line-height: 4em;
+}
+.busStop-detail-right .bus .four {
+  line-height: 2.7em;
+}
+.busStop-detail-right .bus .five {
+  line-height: 2em;
+}
+.busStop-detail-right .bus .active {
+  color: red;
+}
+.busStop-warn {
+  margin: 30px 0 0 0;
+  padding: 10px;
+  background: #095635;
+}
+.busStop-warn h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+.busStop-logo {
+  width: 450px;
+  height: 150px;
+  text-align: center;
+  margin: 30px 0 0 0;
+  border: 5px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+}
